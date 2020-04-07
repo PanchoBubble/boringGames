@@ -16,5 +16,8 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "sass": "^1.26.2"
+  },
+  "dependencies": {
+    "parcel": "^1.12.4"
   }
 }
