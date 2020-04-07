@@ -1,0 +1,17 @@
+// @mixin font-face($font-family, $file-path, $weight: normal, $style: normal) {
+//   @font-face {
+//     font-family: $font-family;
+//     font-weight: $weight;
+//     font-style: $style;
+
+//     src: url('#{$file-path}') format('truetype');
+    // src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'),
+    //   url('#{$file-path}.woff2') format('woff2'),
+    //   url('#{$file-path}.woff') format('woff'),
+    //   url('#{$file-path}.ttf') format('truetype');
+//   }
+// }
+
+
+// Apercu-light - 'normal' - equivalent to 200
+// @include font-face('Quando-Header', '../assets/fonts/Quando-Regular.ttf', normal, normal);
