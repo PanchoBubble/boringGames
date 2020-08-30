@@ -5,14 +5,24 @@ import {
     Route,
   } from "react-router-dom";
 
+import NavBar from "./components/NavBar";
+import Flappy from "./games/Flappy";
+
 export default function App() {
     return (
-        <Router>
-            <Switch>
-                <Route path="/">
-                    <h1>Home</h1>
-                </Route>
-            </Switch>
-        </Router>
+        <div>
+            <NavBar />
+            <div className="container">
+                <Router>
+                    <Switch>
+                        <div className="game-container">
+                            <Route path="/">
+                                <Flappy />
+                            </Route>
+                        </div>
+                    </Switch>
+                </Router>
+            </div>
+        </div>
     )
 }

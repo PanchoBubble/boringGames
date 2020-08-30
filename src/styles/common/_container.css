@@ -1,0 +1,6 @@
+.game-container{
+    margin-top : 2rem;
+    min-height: 500px;
+    border: 2px solid $black;
+    position: relative;
+}
